@@ -14,7 +14,7 @@ Antes deste projeto, eu armazenava dados em arquivos de texto (.txt). Com o SQLi
 - Conexão com banco de dados
 - Estruturação de dados em tabelas
 - Operações CRUD (Create, Read, Update, Delete)
-- Segurança com placeholders para evitar SQL injection
+- Uso de parâmetros SQL para realizar consultas de forma mais segura
 
 O sistema permite gerenciar uma lista de contatos com nome e telefone, tudo através de um menu interativo no terminal.
 
@@ -36,9 +36,9 @@ O sistema permite gerenciar uma lista de contatos com nome e telefone, tudo atra
 ## 📁 Estrutura do Projeto
 crud-python-sqlite/
 │
-├── main.py # Arquivo principal com todas as funções CRUD
-├── database.py # Criação e configuração do banco de dados
-└── Lista_contatos.db # Arquivo do banco de dados SQLite (gerado automaticamente)
+├── main.py # Arquivo principal da aplicação
+├── database.py # Criação e conexão com SQLite
+└── Lista_contatos.db # Banco de dados gerado automaticamente
 
 text
 
@@ -46,7 +46,7 @@ text
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/crud-python-sqlite.git
+git clone https://github.com/Edvandooo/crud-python-sqlite.git
 
 # 2. Entre na pasta do projeto
 cd crud-python-sqlite
@@ -106,4 +106,16 @@ Durante o desenvolvimento deste projeto, pude praticar:
 
 🧹 Organização - Separação de responsabilidades em funções
 
-⚠️ Tratamento de Erros - Blocos try/except para capturar exceçõ
+⚠️ Tratamento de Erros - Blocos try/except para capturar exceções
+
+🚧 Próximas Melhorias
+Com possíveis evoluções futuras:
+
+Interface gráfica
+
+Busca por nome ou telefone
+
+Validação mais avançada dos dados
+
+Melhor organização do código
+

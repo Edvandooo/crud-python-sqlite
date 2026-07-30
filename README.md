@@ -107,15 +107,3 @@ Durante o desenvolvimento deste projeto, pude praticar:
 🧹 Organização - Separação de responsabilidades em funções
 
 ⚠️ Tratamento de Erros - Blocos try/except para capturar exceções
-
-🚧 Próximas Melhorias
-Com possíveis evoluções futuras:
-
-Interface gráfica
-
-Busca por nome ou telefone
-
-Validação mais avançada dos dados
-
-Melhor organização do código
-
